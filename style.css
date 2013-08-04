@@ -1,0 +1,24 @@
+div#golDiv {
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+div#golDiv table {
+    margin: 5px auto;
+    border-collapse: collapse;
+}
+
+div#golDiv table td {
+    height:20px;
+    width:20px;
+    border:#000000 solid 1px;
+}
+
+td.live {
+    background-color: #cc6600;
+}
+
+td.dead {
+    background-color: #666666;
+}

@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Game of Life</title>
+        <script src="gol.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+
+    <body>
+        <!-- div containing the game -->
+        <div id="golDiv">
+            
+            <!-- List to change Seed -->
+            <label for="golSeed">Seed: </label>
+            <select id="golSeed" onChange="changeSeed();">
+                <option value="block" selected>Block</option>
+                <option value="beehive">Beehive</option>
+                <option value="loaf">Loaf</option>
+                <option value="boat">Boat</option>
+                <option value="blinker">Blinker</option>
+                <option value="toad">Toad</option>
+                <option value="beacon">Beacon</option>
+                <option value="pulsar">Pulsar</option>
+            </select>
+            <!-- End of List to change Seed -->
+            
+            <!-- List to change interval -->
+            <label for="golInterval"> Interval: </label>
+            <select  id="golInterval" onChange="changeInterval();">
+                <option value="100">100ms</option>
+                <option value="500" selected>500ms</option>
+                <option value="1000">1s</option>
+                <option value="2000">2s</option>
+                <option value="5000">5s</option>
+            </select>
+            <!-- End of List to change interval -->
+            
+            <!-- Javascript to initialize everything required -->
+            <script src="golDemo.js"></script>
+        </div>
+        <!-- end of div containing the game -->
+    </body>
+</html>
