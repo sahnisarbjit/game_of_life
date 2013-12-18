@@ -1,7 +1,7 @@
 // The Game
 var game = new GOL();
 
-// Different Seeds
+// Different Seeds for game
 var seed_block = [
     [0, 0, 0, 0],
     [0, 1, 1, 0],
